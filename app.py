@@ -204,7 +204,7 @@ app.layout = html.Div(children=[
                     html.P("Marvel villains are often cool and calculated. While fueled by rage, they are smart and intentional about their actions. Women are characterized as irrational and overly emotional, a direct contradiction to Marvel’s villain archetype. Finally, because women are defined by their relationship to men, they tend not to be fully developed as characters. Without a tragic backstory or internal struggle, this lack of depth makes it difficult for women to be compelling villains."),
                     html.P("There are more evil white people than evil people of color both numerically and proportionally. Similar to women, this could be because people of color are often the moral support for a main character. As a result, their character is underdeveloped and lacking the proper backstory to be a quality villain. All of the evil characters in the MCU have been straight. Like the representation of sexuality in general, this is likely the result of a lack of representation in the film industry as a whole. "),
                 ]),
-            
+#Movie Sales
             html.H2('Representation in Movies'),
             dcc.Dropdown(
                 id="rating_dropdown",
