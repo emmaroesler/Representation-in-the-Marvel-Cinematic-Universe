@@ -10,13 +10,17 @@ import dash_bio
 import numpy as np
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
+
+#Author: Emma Roesler
+#Date: 12/8/2022
+#Title: Representation in the Marvel Cinematic Universe
+#Drake University Fall 2022 Honors Thesis
+
 #images
-#age of ultron gender representation
 def images(filename):
     with open(filename,'rb') as f:
         image = f.read()
     return 'data:image/png;base64,' + pybase64.b64encode(image).decode('utf-8')
-
 #movie table
 def generate_table(tab):
     df = pd.read_csv('Movie Sales.csv')
